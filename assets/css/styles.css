@@ -9,6 +9,10 @@ html {
     height:100%;
 }
 
+.bodyBg {
+    background-image: url("assets/images/other_images/animal/animal2.jpeg");
+}
+
 body {
     font-family: 'open_sanslight', sans-serif;
     color: #fff;
@@ -22,6 +26,8 @@ body {
     background-size: cover;
     overflow:visible;
 }
+
+
 
 a,
 .btn {
@@ -279,13 +285,13 @@ table {
             width:13%;
             max-width:150px;
             min-width:150px; 
-            background: -moz-linear-gradient(top,  rgba(0,0,0,0.29) 0%, rgba(0,0,0,0) 78%, rgba(0,0,0,0) 100%);
+            /*background: -moz-linear-gradient(top,  rgba(0,0,0,0.29) 0%, rgba(0,0,0,0) 78%, rgba(0,0,0,0) 100%);
             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.29)), color-stop(78%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0)));
             background: -webkit-linear-gradient(top,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
             background: -o-linear-gradient(top,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
             background: -ms-linear-gradient(top,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
             background: linear-gradient(to bottom,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', endColorstr='#00000000',GradientType=0 ); 
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', endColorstr='#00000000',GradientType=0 ); */
         }
     }
     @media (min-width: 992px) {
@@ -307,6 +313,17 @@ table {
     padding:15px 0 20px 0;
     text-align: center;
     background: rgba(0,0,0,0.1);
+}
+
+body #outer-container #left-sidebar div.logo h2 a {
+    font-family: 'Prata', serif;
+    text-decoration: none !important;
+    color: #fff;
+
+}
+
+body #outer-container #left-sidebar div.logo h2 a.link-scroll:hover {
+    color: #d3d3d3;
 }
 
 #left-sidebar .logo img {
@@ -480,7 +497,7 @@ table {
 #footer .social-icons {
     display:block;
     list-style: none;
-    margin:10px 0;
+    margin:15px 0;
     padding:0;
     text-align: center;
 }
@@ -492,7 +509,7 @@ table {
 #footer .social-icons li a {
     -webkit-transition: all 0.4s;
     transition: all 0.4s; 
-    opacity: 0.5;
+    opacity: 0.6;
     filter: alpha(opacity=50); 
 }
 #footer .social-icons li a:hover {
@@ -500,7 +517,7 @@ table {
     filter: alpha(opacity=100); 
 }
 #footer .social-icons li img {
-    width:18px !important;
+    width:24px !important;
     height: auto !important
 }
 
@@ -510,7 +527,7 @@ table {
             position: fixed;
             bottom: 10px;
             left: 3%;
-            margin:10px 0;
+            margin:15px 0;
             width:13%;
             max-width:150px;
             min-width:150px;
@@ -636,6 +653,7 @@ table {
 
         #main-content .section-wrapper .content-wrapper.mid-vertical-positioning {
             min-height: 60%;
+            padding-top: 40px;
         }     
     }
     @media (min-width: 992px) {
@@ -1068,8 +1086,8 @@ h6 {
 #main-content .feature-columns .feature-col .thumbnail img.item-thumbnail {
     width:100% !important;
     height:auto !important;
-    opacity: 0.8;
-    filter: alpha(opacity=80);
+/*    opacity: 0.8;
+*/    filter: alpha(opacity=80);
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
 }

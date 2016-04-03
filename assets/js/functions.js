@@ -13,8 +13,18 @@ var background_settings = {
     change_on_mobile    : false, // if true, bg changes on mobile devices
     change_on_nonmobile : true,  // if true, bg changes on tablet and desktop devices
     use_script          : true,  // set to false if you want to set a custom background (css, video, etc)
-}
+};
 
+var backgrounds =["animal/animal", "space/space", "ocean/ocean"];
+var backgroundsIndex = Math.floor(Math.random() * (backgrounds.length));
+var theme = backgrounds[backgroundsIndex];
+
+$('#intro').attr('data-custom-background-img', 'assets/images/other_images/'+theme+'1.jpeg');
+$('#about').attr('data-custom-background-img', 'assets/images/other_images/'+theme+'2.jpeg');
+$('#skills').attr('data-custom-background-img', 'assets/images/other_images/'+theme+'3.jpeg');
+$('#projects').attr('data-custom-background-img', 'assets/images/other_images/'+theme+'4.jpeg');
+$('#hobbies').attr('data-custom-background-img', 'assets/images/other_images/'+theme+'5.jpeg');
+$('#contact').attr('data-custom-background-img', 'assets/images/other_images/'+theme+'6.jpeg');
 
 /* 
  * ================================================================

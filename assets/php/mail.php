@@ -3,8 +3,8 @@
 /* =====================================================
  * change $email_to and $email_form
  * ===================================================== */
-$email_to = "your_email@yourdomain.com"; // the email address to which the form sends submissions
-$email_from = "do-not-reply@yourdomain.com"; // the email address used as "From" when submissions are sent to the $email_to above (important that it has the same domain as the domain of your site - unless you have configured your server's mail settings)
+$email_to = "dani.zaghian@gmail.com"; // the email address to which the form sends submissions
+$email_from = "do-not-reply@danizaghian.com"; // the email address used as "From" when submissions are sent to the $email_to above (important that it has the same domain as the domain of your site - unless you have configured your server's mail settings)
 $email_subject = "Contact Form submitted";
 
 // check CAPTCHA code first

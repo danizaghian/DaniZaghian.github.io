@@ -10,7 +10,7 @@
     <title>Dani Zaghian</title>
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="assets/images/other_images/favicon.png">
+    <link rel="icon" type="image/png" href="assets/images/other_images/grumpy.ico">
 
     <!-- Bootstrap core CSS -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,16 +18,14 @@
     <link href="assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
     <!-- vegas bg -->
     <link href="assets/js/vegas/jquery.vegas.min.css" rel="stylesheet">
-    <!-- owl carousel css -->
-    <link href="assets/js/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="assets/js/owl-carousel/owl.theme.css" rel="stylesheet">
-    <link href="assets/js/owl-carousel/owl.transitions.css" rel="stylesheet">
     <!-- intro animations -->
     <link href="assets/js/wow/animate.css" rel="stylesheet">
     <!-- font awesome -->
     <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- lightbox -->
     <link href="assets/js/lightbox/css/lightbox.css" rel="stylesheet">
+    <!-- font -->
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
 
     <!-- styles for this template -->
     <link href="assets/css/styles.css" rel="stylesheet">
@@ -42,7 +40,7 @@
     <![endif]-->
   </head>
 
-  <body data-default-background-img="assets/images/other_images/bg5.jpg" data-overlay="true" data-overlay-opacity="0.35">
+  <body data-overlay="true" data-overlay-opacity="0.35">
 
     <!-- Outer Container -->
     <div id="outer-container">
@@ -51,7 +49,7 @@
       <section id="left-sidebar">
         
         <div class="logo">
-          <a href="#intro" class="link-scroll"><img src="assets/images/other_images/logo.png" alt="Dani Zaghian"></a>
+          <h2><a href="#intro" class="link-scroll">dani</a></h2>
         </div><!-- .logo -->
 
         <!-- Menu Icon for smaller viewports -->
@@ -59,10 +57,9 @@
 
         <ul id="main-menu">
           <li id="menu-item-about" class="menu-item scroll"><a href="#about">About</a></li>
-          <li id="menu-item-carousel" class="menu-item scroll"><a href="#carousel">Carousel</a></li>
-          <li id="menu-item-grid" class="menu-item scroll"><a href="#grid">Grid</a></li>
+          <li id="menu-item-grid" class="menu-item scroll"><a href="#skills">Skills</a></li>
           <li id="menu-item-projects" class="menu-item scroll"><a href="#projects">Projects</a></li>
-          <li id="menu-item-tabs" class="menu-item scroll"><a href="#tabs">Tabs</a></li>
+          <li id="menu-item-hobbies" class="menu-item scroll"><a href="#hobbies">Hobbies</a></li>
           <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Contact</a></li>
         </ul><!-- #main-menu -->
 
@@ -71,162 +68,53 @@
 
       <section id="main-content" class="clearfix">
         
-        <article id="intro" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg5.jpg">
+        <article id="intro" class="section-wrapper clearfix" data-custom-bakground-img="assets/images/other_images/animal/animal1.jpeg">
           <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
             <div class="col-sm-10 col-md-9 pull-right">
 
                 <section class="feature-text">
                   <h1>Dani Zaghian</h1>
-                  <p>Full Stack Web Developer and Designers</p>
-                  <p><a href="#about" class="link-scroll btn btn-outline-inverse btn-lg">find out more</a></p>
+                  <p>Full Stack Web Developer</p>
+                  <p><a href="#about" class="link-scroll btn btn-outline-inverse btn-lg">about me</a></p>
                 </section>
 
             </div><!-- .col-sm-10 -->
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
 
-        <article id="about" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg1.jpg">
+        <article id="about" class="section-wrapper clearfix">
           <div class="content-wrapper clearfix">
             <div class="col-sm-10 col-md-9 pull-right">
 
                 <h1 class="section-title">About</h1>
 
-                <p class="feature-paragraph"><img data-img-src="assets/images/other_images/transp-image5b.png" class="lazy pull-right" alt="Dani">Welcome to my portfolio. <a href="" onclick="populate_and_open_modal(event, 'modal-content-1');">Suspendisse molestie lorem odio</a>, sit amet. Laoreet consequat. Duis dictum lorem metus, vitae dapibus.</p>
-                <h4>Duis dictum lorem metus</h4>
-                <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio. Etiam scelerisque lacus tempor, rhoncus diam vel, gravida felis. Fusce tristique sem et leo. Pellentesque sed malesuada turpis. Quisque eget lacus sit amet dui.</p>
-                <p><a href="#carousel" class="link-scroll btn btn-outline-inverse btn-sm">read more</a></p>
+                <p class="feature-paragraph"><img data-img-src="assets/images/other_images/dani.png" class="lazy pull-right" alt="Dani">My name is Danielle (I go by Dani), and I'm located in San Francisco, CA. I'm a full stack web developer with a passion for both design and data structures.</p>
+
+                <p>I attended UC Santa Cruz where I graduated with a bachelors of science in biology. While pursuing a career in my field, I worked with talented software engineers and became interested in programming myself. After taking some online classes, I enrolled in an immersive development bootcamp at <a href="http://www.generalassemb.ly" target = "_blank">General Assembly</a>. I fell in love with coding and have been developing since. My goal is to build creative apps that are highly functional, memorable, and beautiful. </p>
+                <p><a href="#skills" class="link-scroll btn btn-outline-inverse btn-sm">my skills</a></p>
                 
-                <div class="content-to-populate-in-modal" id="modal-content-1">
-                  <h1>Lorem Ipsum</h1>
-                  <p><img data-img-src="assets/images/other_images/transp-image4.png" class="lazy rounded_border hover_effect pull-right" alt="Lorem Ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in urna vel ante mollis tincidunt. Donec nec magna condimentum tortor laoreet lobortis. Nunc accumsan sapien eu tortor fringilla, et condimentum metus pellentesque. Maecenas rhoncus tortor nec mi congue aliquet. Integer eu turpis scelerisque, iaculis magna non, tempor sem. Quisque consectetur nisi eu felis euismod, sit amet faucibus justo molestie. Ut pretium sapien dui, id facilisis metus interdum pharetra.</p>
-                  <p>Etiam scelerisque lacus tempor, rhoncus diam vel, gravida felis. Fusce tristique sem et leo aliquam vulputate. Ut eget orci in sapien commodo fringilla. Ut luctus faucibus viverra. Quisque ut ante eget libero rutrum imperdiet. Morbi in diam bibendum, venenatis arcu sed, consequat libero. Nulla imperdiet, ipsum et adipiscing pulvinar, nibh metus porta mauris, et vestibulum dolor sapien sit amet justo. In dignissim leo nec erat faucibus volutpat.</p>
-                  <h3>Duis dictum lorem metus, vitae dapibus</h3>
-                  <p><img data-img-src="assets/images/other_images/transp-image3.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Sed auctor urna mi, sed fringilla felis vulputate nec. Cras eu nibh id quam pretium convallis. Donec ante enim, placerat nec sagittis sit amet, tempor in velit. Maecenas ultricies commodo lacus id porta. Suspendisse eros elit, lacinia vitae erat vitae, egestas accumsan nunc. Maecenas dictum odio ipsum, non volutpat erat consequat tempor. Pellentesque sed malesuada turpis. Quisque eget lacus sit amet dui feugiat molestie sit amet eget purus. Morbi eget neque nec lectus tempus sagittis nec at ante. </p>
-                  <p>Etiam scelerisque lacus tempor, rhoncus diam vel, gravida felis. Fusce tristique sem et leo aliquam vulputate. Ut eget orci in sapien commodo fringilla. Ut luctus faucibus viverra. Quisque ut ante eget libero rutrum imperdiet. Morbi in diam bibendum, venenatis arcu sed, consequat libero. Nulla imperdiet, ipsum et adipiscing pulvinar, nibh metus porta mauris, et vestibulum dolor sapien sit amet justo. In dignissim leo nec erat faucibus volutpat.</p>
-                </div><!-- #modal-content-1 -->
 
             </div><!-- .col-sm-10 -->
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
 
-        <article id="carousel" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg6.jpg">
-          <div class="content-wrapper clearfix">
 
-              <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="70" data-ride="carousel">
-                
-                <!-- Indicators - slide navigation -->
-                <ol class="carousel-indicators title-indicators">
-                  <li data-target="#features-carousel" data-slide-to="0" class="active">Lorem Ipsum</li>
-                  <li data-target="#features-carousel" data-slide-to="1">Suspendisse</li>
-                  <li data-target="#features-carousel" data-slide-to="2">Maecenas</li>
-                  <li data-target="#features-carousel" data-slide-to="3">Scelerisque</li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-
-                  <div class="item active">
-                    <div class="carousel-text-content">
-                      <img src="assets/images/other_images/transp-image1.png" class="icon" alt="Lorem Ipsum">
-                      <h2 class="title">Lorem Ipsum</h2>
-                      <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio.</p>
-                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">read more</a></p>
-
-                      <div class="content-to-populate-in-modal" id="modal-content-2">
-                        <h1>Lorem Ipsum</h1>
-                        <p><img data-img-src="assets/images/other_images/transp-image1.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
-                        <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                        <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
-                      </div><!-- #modal-content-2 -->
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                      <img src="assets/images/other_images/transp-image6.png" class="icon" alt="Lorem Ipsum">
-                      <h2 class="title">Suspendisse molestie</h2>
-                      <p>Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Duis dictum lorem metus.</p>
-                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-3');" class="btn btn-outline-inverse btn-sm">read more</a></p>
-
-                      <div class="content-to-populate-in-modal" id="modal-content-3">
-                        <h1>Suspendisse molestie</h1>
-                        <p><img data-img-src="assets/images/other_images/transp-image6.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
-                        <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                        <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
-                      </div><!-- #modal-content-3 -->
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                      <img src="assets/images/other_images/transp-image7.png" class="icon" alt="Lorem Ipsum">
-                      <h2 class="title">Maecenas id dolor</h2>
-                      <p>Fusce erat augue, fermentum sit amet congue a, ullamcorper ac enim. Maecenas id dolor imperdiet, mollis felis ut, pellentesque ante. Sed id congue arcu. Nulla eget commodo sem. Suspendisse suscipit, sem ac.</p>
-                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-4');" class="btn btn-outline-inverse btn-sm">read more</a></p>
-
-                      <div class="content-to-populate-in-modal" id="modal-content-4">
-                        <h1>Maecenas id dolor</h1>
-                        <p><img data-img-src="assets/images/other_images/transp-image7.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
-                        <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                        <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
-                      </div><!-- #modal-content-4 -->
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                      <img src="assets/images/other_images/transp-image4.png" class="icon" alt="Lorem Ipsum">
-                      <h2 class="title">Sed scelerisque</h2>
-                      <p>Aenean a est fringilla, malesuada eros vel, condimentum augue. Sed lorem sapien, vestibulum quis nisl volutpat, fermentum adipiscing massa. Cras ac faucibus nisl. Proin ac convallis sapien. </p>
-                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-5');" class="btn btn-outline-inverse btn-sm">read more</a></p>
-
-                      <div class="content-to-populate-in-modal" id="modal-content-5">
-                        <h1>Sed scelerisque</h1>
-                        <p><img data-img-src="assets/images/other_images/transp-image4.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
-                        <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                        <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
-                      </div><!-- #modal-content-5 -->
-                    </div>
-                  </div><!-- .item -->
-
-                </div><!-- .carousel-inner -->
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#features-carousel" data-slide="prev"></a>
-                <a class="right carousel-control" href="#features-carousel" data-slide="next"></a>
-
-              </div><!-- #about-carousel -->
-
-          </div><!-- .content-wrapper -->
-        </article><!-- .section-wrapper -->
-
-        <article id="grid" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg2.jpg">
+        <article id="skills" class="section-wrapper clearfix">
           <div class="content-wrapper clearfix">
             <div class="col-sm-11 col-md-10 pull-right">
 
-                <h1 class="section-title">Grid</h1>
+                <h1 class="section-title">Skills</h1>
                 
-                <!-- grid -->
+                <!-- skills -->
                 <section class="grid row clearfix clearfix-for-2cols">
-
-                  <!-- grid item -->
-                  <div class="grid-item col-md-6">
-                    <div class="item-content clearfix">
-                      <span class="icon fa fa-area-chart"></span>
-                      <div class="text-content">
-                        <h5>Lorem ipsum dolor sit amet</h5>
-                        <p>Nullam ac rhoncus sapien, non gravida purus. Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies.</p>
-                      </div>
-                    </div><!-- end: .item-content -->
-                  </div><!-- end: .grid-item -->
 
                   <!-- grid item -->
                   <div class="grid-item col-md-6">
                     <div class="item-content clearfix">
                       <span class="icon fa fa-globe"></span>
                       <div class="text-content">
-                        <h5>Aliquam adipiscing eros non elit</h5>
-                        <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer ultricies sed ligula eget tempus.</p>
+                        <h5>Languages and Libraries</h5>
+                        <p>JavaScript, Ruby, HTML5, CSS3, SQL, jQuery, Bootstrap, Skeleton, Foundation, Material Design</p>
                       </div>
                     </div><!-- end: .item-content -->
                   </div><!-- end: .grid-item -->
@@ -234,10 +122,10 @@
                   <!-- grid item -->
                   <div class="grid-item col-md-6">
                     <div class="item-content clearfix">
-                      <span class="icon fa fa-certificate"></span>
+                      <span class="icon fa fa-desktop"></span>
                       <div class="text-content">
-                        <h5>Integer ultricies sed ligula</h5>
-                        <p>Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies sed ligula ligula eget.</p>
+                        <h5>Platforms and Frameworks</h5>
+                        <p>Node, Express, Rails, Angular, Phaser, Sinatra</p>
                       </div>
                     </div><!-- end: .item-content -->
                   </div><!-- end: .grid-item -->
@@ -245,21 +133,34 @@
                   <!-- grid item -->
                   <div class="grid-item col-md-6">
                     <div class="item-content clearfix">
-                      <span class="icon fa fa-cloud"></span>
+                      <span class="icon fa fa-table"></span>
                       <div class="text-content">
-                        <h5>Lorem ipsum dolor sit amet</h5>
-                        <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies sed ligula eget tempus.</p>
+                        <h5>Database Tools</h5>
+                        <p>MongoDB, Mongoose, PostgreSQL, MySQL, ActiveRecord, Firebase</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <span class="icon fa fa-wrench"></span>
+                      <div class="text-content">
+                        <h5>Other Tech Skills</h5>
+                        <p>Git/GitHub, Heroku, AJAX, JSON, Bcrypt, Bower, Grunt, Yeoman, Rspec</p>
                       </div>
                     </div><!-- end: .item-content -->
                   </div><!-- end: .grid-item -->
 
                 </section><!-- end: grid -->
 
+                <a href="#projects" class="link-scroll btn btn-outline-inverse btn-sm">projects</a></p>
+
             </div><!-- .col-sm-11 -->
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
 
-        <article id="projects" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg3.jpg">
+        <article id="projects" class="section-wrapper clearfix">
           <div class="content-wrapper clearfix">
             <div class="col-sm-11 pull-right">
 
@@ -272,37 +173,19 @@
                   <article class="feature-col col-md-4">
                     <a href="" onclick="populate_and_open_modal(event, 'modal-content-6');" class="thumbnail linked">
                       <div class="image-container">
-                        <img data-img-src="assets/images/other_images/project-3.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                        <img data-img-src="assets/images/other_images/colorfall-thumb.png" class="lazy item-thumbnail" alt="Lorem Ipsum">
                       </div>
                       <div class="caption">
-                        <h5>Project 3</h5>
-                        <p>This feature contains an image carousel when you open popup.</p>
+                        <h5>Colorfall</h5>
                       </div><!-- .caption -->
                     </a><!-- .thumbnail -->
 
                     <div class="content-to-populate-in-modal" id="modal-content-6">
-                      <h1>Sed scelerisque</h1>
-                      <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat.<br/></p>
-
-                      <!-- image slider inside popup -->
-                      <div id="unique-id-for-image-slider" class="owl-carousel popup-image-gallery">
-                        <!-- slide -->
-                        <div>
-                          <!-- caption is optional. To remove it, remove the <h6> below -->
-                          <h6 class="caption">Caption for Image 1</h6>
-                          <img class="lazyOwl" data-src="assets/images/other_images/bg1.jpg">
-                        </div>
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Caption for Image 2</h6>
-                          <img class="lazyOwl" data-src="assets/images/other_images/bg2.jpg">
-                        </div>
-                        <!-- slide -->
-                        <div>
-                          <h6 class="caption">Caption for Image 3</h6>
-                          <img class="lazyOwl" data-src="assets/images/other_images/bg3.jpg">
-                        </div>
-                      </div>
+                        <a target="_blank" href="http://colorfall.herokuapp.com"><img data-img-src="assets/images/other_images/colorfall-ss.png" class="lazy item-thumbnail"></a>
+                        <h1><a target="_blank" href="http://colorfall.herokuapp.com">Colorfall</a></h1>
+                        <p>Colorfall is a game I created using the framework PhaserJS. It is a canvas
+                        HTML5 game that allows you to create a pixelated image and share it on facebook or twitter. </p>
+                        <p>I designed the game and coded the front­end game interface and back­end social media sharing.</p>
                     </div><!-- #modal-content-6 -->
                   </article>
 
@@ -310,124 +193,114 @@
                   <article class="feature-col col-md-4">
                     <a href="" onclick="populate_and_open_modal(event, 'modal-content-7');" class="thumbnail linked">
                       <div class="image-container">
-                        <img data-img-src="assets/images/other_images/project-2.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                        <img data-img-src="assets/images/other_images/lfg-thumb.png" class="lazy item-thumbnail">
                       </div>
                       <div class="caption">
                         <h5>Looking for Group</h5>
-                        <p>This feature contains generic image and text content when you open popup.</p>
                       </div><!-- .caption -->
                     </a><!-- .thumbnail -->
 
                     <div class="content-to-populate-in-modal" id="modal-content-7">
-                      <img data-img-src="assets/images/other_images/top-image2.jpg" class="lazy full-width" alt="Lorem Ipsum">
-                      <h1>Sed scelerisque</h1>
-                      <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio</a>, sit amet. </p>
-                      <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                      <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+                      <a target="_blank" href="http://lfg-meetup.herokuapp.com"><img data-img-src="assets/images/other_images/lfg-ss.png" class="lazy full-width"></a>
+                      <a target="_blank" href="http://lfg-meetup.herokuapp.com"><h1>Looking For Group</h1></a>  
+                      <p>Looking For Group (LFG) is a meetup app for people who enjoy all types of games. I worked on this project with 3 other developers. </p>
+                      <p>I engineered the idea for the site and built many features including the model relationships with CRUD and restful routes, material design implementation/styling, back­end server and database, routing, and UI views.</p>
                     </div><!-- #modal-content-7 -->
                   </article>
 
                   <!-- feature 3 -->
                   <article class="feature-col col-md-4">
-                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-8', '', 'full-size');" class="thumbnail linked">
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-8');" class="thumbnail linked">
                       <div class="image-container">
-                        <img data-img-src="assets/images/other_images/project-4.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                        <img data-img-src="assets/images/other_images/vault-thumb.png" class="lazy item-thumbnail">
                       </div>
                       <div class="caption">
-                        <h5>Summoner Seeker</h5>
-                        <p>Inside this feature's popup you'll find an alternative version of an image gallery.</p>
+                        <h5>The VAULT</h5>
                       </div><!-- .caption -->
                     </a><!-- .thumbnail -->
 
                     <div class="content-to-populate-in-modal" id="modal-content-8">
-                      <h1>Sed scelerisque</h1>
-                      <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio</a>, sit amet. Adipiscing eros non elit imperdiet congue tiam at ligula sit amet arcu.</p>
-
-                      <!-- alt image slider inside popup -->
-                      <div id="unique-id-for-alt-image-slider" class="owl-carousel popup-alt-image-gallery">
-                        <div class="item"><a href="assets/images/other_images/bg1.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-1.jpg"></a></div>
-                        <div class="item"><a href="assets/images/other_images/bg2.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-2.jpg"></a></div>
-                        <div class="item"><a href="assets/images/other_images/bg3.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-3.jpg"></a></div>
-                        <div class="item"><a href="assets/images/other_images/bg4.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-4.jpg"></a></div>
-                        <div class="item"><a href="assets/images/other_images/bg5.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-5.jpg"></a></div>
-                        <div class="item"><a href="assets/images/other_images/bg6.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-6.jpg"></a></div>
-                        <div class="item"><a href="assets/images/other_images/bg2.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-2.jpg"></a></div>
-                        <div class="item"><a href="assets/images/other_images/bg3.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-3.jpg"></a></div>
-                      </div>
+                      <a target="_blank" href="http://the--vault.herokuapp.com"><img data-img-src="assets/images/other_images/vault-ss.png" class="lazy full-width" alt="Lorem Ipsum">
+                      <a target="_blank" href="http://the--vault.herokuapp.com"><h1>The VAULT</h1>
+                      <p>The VAULT is a travel app built specifically for high rollers seeking exclusive events
+                      around the globe. I worked with 2 other developers to build it in just 4 days. </p> 
+                      <p>I worked on all aspects of the app, focusing on model relationships, session creation and authentication, page views and styling.</p>
                     </div><!-- #modal-content-8 -->
                   </article>
 
                 </section><!-- end: .feature-columns -->
 
               <!-- End: Section content to edit -->
+              <p><a href="#hobbies" class="link-scroll btn btn-outline-inverse btn-sm">my hobbies</a></p>
 
             </div><!-- .col-sm-10 -->
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->
 
-        <article id="tabs" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg7.jpg">
+        <article id="hobbies" class="section-wrapper clearfix">
           <div class="content-wrapper mid-vertical-positioning clearfix">
             <div class="col-sm-10 col-md-9 pull-right">
 
-                <h1 class="section-title">Tabs</h1>
+                <h1 class="section-title">Hobbies</h1>
 
                 <div class="tabpanel styled-tabs uniform-height" role="tabpanel">
 
                   <!-- Nav tabs -->
                   <ul class="nav nav-tabs" role="tablist" text-hidden-xs="true">
-                    <li role="presentation" class="active"><a href="#tabs-tab1" aria-controls="tabs-tab1" role="tab" data-toggle="tab"><i class="icon fa fa-diamond"></i><span>Donec</span></a></li>
-                    <li role="presentation"><a href="#tabs-tab2" aria-controls="tabs-tab2" role="tab" data-toggle="tab"><i class="icon fa fa-train"></i><span>Maecenas</span></a></li>
-                    <li role="presentation"><a href="#tabs-tab3" aria-controls="tabs-tab3" role="tab" data-toggle="tab"><i class="icon fa fa-coffee"></i><span>Iaculis</span></a></li>
-                    <li role="presentation"><a href="#tabs-tab4" aria-controls="tabs-tab4" role="tab" data-toggle="tab"><i class="icon fa fa-comment"></i><span>Quisque</span></a></li>
+                    <li role="presentation" class="active"><a href="#tabs-tab1" aria-controls="tabs-tab1" role="tab" data-toggle="tab"><i class="icon fa fa-gamepad"></i><span>Gaming</span></a></li>
+                    <li role="presentation"><a href="#tabs-tab2" aria-controls="tabs-tab2" role="tab" data-toggle="tab"><i class="icon fa fa-female"></i><span>Ice Skating</span></a></li>
+                    <li role="presentation"><a href="#tabs-tab3" aria-controls="tabs-tab3" role="tab" data-toggle="tab"><i class="icon fa fa-graduation-cap"></i><span>Mentoring</span></a></li>
+                    <li role="presentation"><a href="#tabs-tab4" aria-controls="tabs-tab4" role="tab" data-toggle="tab"><i class="icon fa fa-birthday-cake"></i><span>Baking</span></a></li>
                   </ul>
 
                   <!-- Tab panes -->
                   <div class="tab-content">
 
                     <div role="tabpanel" class="tab-pane fade in active" id="tabs-tab1">
-                      <img src="assets/images/other_images/tabs-icon4.png" class="pull-right hidden-xs">
-                      <h4>Donec nec magna condimentum</h4>
-                      <p>Uspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio. Etiam scelerisque lacus tempor, rhoncus diam vel, gravida felis. Fusce tristique sem et leo. Pellentesque sed malesuada turpis. Quisque eget lacus sit amet dui.</p>
-                      <p>Ut pretium sapien dui, id facilisis metus interdum pharetra. Totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                      <img src="assets/images/other_images/puzzle.png" class="pull-right hidden-xs">
+                      <h4>Video and Board Games</h4>
+                      <p>In my downtime I like to game in any way I can. I find gaming to be a great social experience, a ton of fun, mentally engaging, and allows me to let off a little steam.</p>
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="tabs-tab2">
-                      <img src="assets/images/other_images/tabs-icon3.png" class="pull-right hidden-xs">
-                      <h4>Maecenas rhoncus tortor nec mi congue</h4>
-                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio.</p>
+                      <img src="assets/images/other_images/skate.png" class="pull-right hidden-xs">
+                      <h4>Ice Skating</h4>
+                      <p>Since I was a toddler, I've been ice-skating. I used to be a competitive figure skater and I still enjoy trips to the rink to keep my skills sharp and stay in shape.</p>
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="tabs-tab3">
-                      <img src="assets/images/other_images/tabs-icon2.png" class="pull-right hidden-xs">
-                      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
-                      <p>Nunc accumsan sapien eu tortor fringilla, et condimentum metus pellentesque. Maecenas rhoncus tortor nec mi congue aliquet. Integer eu turpis scelerisque, iaculis magna non, tempor sem. Quisque consectetur nisi eu felis euismod, sit amet faucibus justo molestie. Ut pretium sapien dui, id facilisis metus interdum pharetra.</p>
+                      <img src="assets/images/other_images/lightbulb.png" class="pull-right hidden-xs">
+                      <h4>Mentoring, Teaching, and Learning</h4>
+                      <p>After my immersive bootcamp, I was hired on at the company (General Assembly) to be an instructor for the next cohort. I learned how to teach effectively and mentor students individually. Not only did I love doing it, but it helped me grow as a person. Teaching something is truly the best way to truely learn it, and I experienced that first hand. It's something I'm passionate about continuing to do in both my personal and professional life.</p>
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="tabs-tab4">
-                      <img src="assets/images/other_images/tabs-icon1.png" class="pull-right hidden-xs">
-                      <h4>Quisque consectetur nisi</h4>
-                      <p>Etiam scelerisque lacus tempor, rhoncus diam vel, gravida felis. Fusce tristique sem et leo aliquam vulputate. Ut eget orci in sapien commodo fringilla. Maecenas rhoncus tortor nec mi congue aliquet. Integer eu turpis scelerisque, iaculis magna non, tempor sem.</p>
-                      <p>Integer eu turpis scelerisque, iaculis magna non.</p>
+                      <img src="assets/images/other_images/cupcake.png" class="pull-right hidden-xs">
+                      <h4>Baking</h4>
+                      <p>Since childhood I've loved sweets, especially pastries. My favorite thing to bake is unique cupcakes! </p>
+                      <p>Fun fact: My favorite cupcakes have cookies baked in the center.</p>
                     </div>
 
                   </div><!-- .tab-content -->
 
                 </div><!-- .tabpanel -->
 
+                <p><a href="#contact" class="link-scroll btn btn-outline-inverse btn-sm">contact</a></p>
+
             </div><!-- .col-sm-10 -->
           </div><!-- .content-wrapper -->
         </article><!-- .section-wrapper -->        
 
-        <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg4.jpg">
+        <article id="contact" class="section-wrapper clearfix">
           <div class="content-wrapper clearfix">
             
               <h1 class="section-title">Contact</h1>
               
                 <!-- CONTACT DETAILS -->
                 <div class="contact-details col-sm-5 col-md-3">
-                  <p>123A,<br/>Molestie Lorem Avenue,<br/>Aliquam<br/>AAA0010</p>
-                  <p>Tel: (+20) 21 301 524</p>
-                  <p><a href="mailto:info@loremipsum.com">info@loremipsum.com</a></p>
+                  <p>Dani Zaghian<br/>San Francisco</p>
+                  <p>Tel: (805) 300-2432</p>
+                  <p><a href="mailto:dani.zaghian@gmail.com">dani.zaghian@gmail.com</a></p>
                 </div>
                 <!-- END: CONTACT DETAILS -->
 
@@ -523,9 +396,6 @@
 
     <!-- detect scrolling -->
     <script src="assets/js/jquery.scrollstop.min.js"></script>
-
-    <!-- owl carousel js -->
-    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
 
     <!-- lightbox js -->
     <script src="assets/js/lightbox/js/lightbox.min.js"></script>
