@@ -10,14 +10,14 @@ var page_is_scrolling = false; // identify when page is being scrolled
 
 // page background default settings - to change, override them at the top of initialise-functions.js
 var background_settings = {
-    change_on_mobile    : false, // if true, bg changes on mobile devices
+    change_on_mobile    : true, // if true, bg changes on mobile devices
     change_on_nonmobile : true,  // if true, bg changes on tablet and desktop devices
     use_script          : true,  // set to false if you want to set a custom background (css, video, etc)
 };
 
 var backgrounds =["animal/animal", "space/space", "ocean/ocean"];
 var backgroundsIndex = Math.floor(Math.random() * (backgrounds.length));
-var theme = backgrounds[backgroundsIndex];
+var theme = backgrounds[2];
 
 $('#intro').attr('data-custom-background-img', 'assets/images/other_images/'+theme+'1.jpeg');
 $('#about').attr('data-custom-background-img', 'assets/images/other_images/'+theme+'2.jpeg');
