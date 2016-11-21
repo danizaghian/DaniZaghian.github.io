@@ -17,7 +17,7 @@ var background_settings = {
 
 var backgrounds =["animal/animal", "space/space", "ocean/ocean"];
 var backgroundsIndex = Math.floor(Math.random() * (backgrounds.length));
-var theme = backgrounds[2];
+var theme = backgrounds[1];
 
 $('#intro').attr('data-custom-background-img', 'assets/images/other_images/'+theme+'1.jpeg');
 $('#about').attr('data-custom-background-img', 'assets/images/other_images/'+theme+'2.jpeg');
