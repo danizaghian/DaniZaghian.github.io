@@ -10,7 +10,7 @@ var page_is_scrolling = false; // identify when page is being scrolled
 
 // page background default settings - to change, override them at the top of initialise-functions.js
 var background_settings = {
-    change_on_mobile    : false, // if true, bg changes on mobile devices
+    change_on_mobile    : true, // if true, bg changes on mobile devices
     change_on_nonmobile : true,  // if true, bg changes on tablet and desktop devices
     use_script          : true,  // set to false if you want to set a custom background (css, video, etc)
 };
